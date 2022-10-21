@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    background-color: gray;
+}
+
+nav{
+    padding: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+footer{
+    background-color: white;
+}
+
+.menu{
+    display: none;
+}
+
+nav:hover > .menu{
+    display: block;
+    animation: name 1s linear;
+}
+
+@keyframes name {
+    from { transform: scale(0%); }
+    50% { transform: scale(50%); }
+    to { transform: scale(100%); }
+    }
+
+@media screen and (min-width: 900px){
+    a > .menu{
+        display: block;
+    }
+}
