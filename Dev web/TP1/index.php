@@ -7,25 +7,7 @@
 <body>
     <header>
         <h1>Table</h1>
-        <nav>
-            <a href="">Menu</a>
-            <div id="menu" class="menu">
-                <ul>
-                    <li><a href="">Accueil</a></li>
-                    <li><a href="">Présentation</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    <li><a href="">Blog</a></li>
-                    <ul>
-                        <li><a href="">Article 1</a></li>
-                        <li><a href="">Article 2</a></li>
-                        <li><a href="">Article 3</a></li>
-                        <li><a href="">Article 4</a></li>
-                    </ul>
-                    <li><a href="abonnez-vous.php">Abonnez-vous</a></li>
-                    <li><a href="">Statistiques</a></li>
-                </ul>
-            </div>
-        </nav>
+        <?php include('modules/header.php'); ?>
     </header>
     <main>
         <section>

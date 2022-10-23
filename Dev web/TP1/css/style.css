@@ -44,3 +44,8 @@ nav:hover > .menu{
         display: block;
     }
 }
+
+.active{
+    background-color: white;
+    display: inline-block;
+}
